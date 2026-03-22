@@ -1,0 +1,8 @@
+node_modules/*
+
+#config/config.env
+
+arch.zip
+
+VacQ.postman_collection2.json
+vacq2.json
