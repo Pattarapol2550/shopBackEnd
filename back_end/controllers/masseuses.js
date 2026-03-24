@@ -175,6 +175,11 @@ exports.updateMasseuse = async (req,res)=>{
             updateData.shop = req.body.shop;
         }
 
+        
+            if(req.body.name){
+                updateData.name = req.body.name;
+            }
+
         const updated = await Masseuse.findByIdAndUpdate(
             req.params.id,
             updateData,
